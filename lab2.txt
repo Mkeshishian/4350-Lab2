@@ -23,10 +23,12 @@ GROUP BY s.Name, s.SSN; */
 -- JOIN Enrollment e ON s.SSN = e.SSN
 -- WHERE e.Grade IS NOT NULL AND e.Grade >= 'C'
 -- GROUP BY s.Name, s.SSN;
+
 -- q5
 -- SELECT CourseTitle, CourseNumber
 -- FROM Course
 -- WHERE PrerequisiteCourseNumber IS NULL;
+
 
 -- q6
 -- SELECT s.Name, s.SSN
